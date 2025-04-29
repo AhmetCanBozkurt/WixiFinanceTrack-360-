@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+out/
+
+# .NET
+*.dll
+*.exe
+*.pdb
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Node/NPM
+node_modules/

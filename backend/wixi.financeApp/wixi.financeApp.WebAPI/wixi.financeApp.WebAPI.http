@@ -1,0 +1,6 @@
+@wixi.financeApp.WebAPI_HostAddress = http://localhost:5171
+
+GET {{wixi.financeApp.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
