@@ -1,24 +1,21 @@
-# Visual Studio
-.vs/
-*.user
-*.suo
-
-# Build results
-bin/
-obj/
-out/
-
-# .NET
-*.dll
-*.exe
-*.pdb
-
-# Logs
-*.log
-
-# OS files
-Thumbs.db
+# Genel
+node_modules/
+.env
 .DS_Store
 
-# Node/NPM
-node_modules/
+# React
+frontend/build/
+frontend/node_modules/
+
+# React Native
+mobile/node_modules/
+mobile/android/app/build/
+mobile/ios/Pods/
+
+# .NET
+backend/**/*.vs/
+backend/**/*.user
+backend/**/*.suo
+backend/**/bin/
+backend/**/obj/
+backend/**/*.db
