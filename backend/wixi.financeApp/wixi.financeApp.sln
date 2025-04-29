@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wixi.financeApp.WebAPI", "wixi.financeApp.WebAPI\wixi.financeApp.WebAPI.csproj", "{8480E82A-233D-4305-8750-ABBF444DC1F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wixi.financeApp.WebAPI", "wixi.financeApp.WebAPI\wixi.financeApp.WebAPI.csproj", "{8480E82A-233D-4305-8750-ABBF444DC1F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wixi.financeApp.Business", "wixi.financeApp.Business\wixi.financeApp.Business.csproj", "{C2FC2E71-0903-46E5-B4FB-974DA13422C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wixi.financeApp.DataAccess", "wixi.financeApp.DataAccess\wixi.financeApp.DataAccess.csproj", "{0FB63DA1-37C6-4E00-8A65-3841B42F0C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wixi.financeApp.Core", "wixi.financeApp.Core\wixi.financeApp.Core.csproj", "{8232416E-0FF7-460E-B80D-A1A50E9F5462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wixi.financeApp.Entities", "wixi.financeApp.Entities\wixi.financeApp.Entities.csproj", "{28328BF2-AF35-40A7-9FCD-854B642DF600}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{8480E82A-233D-4305-8750-ABBF444DC1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8480E82A-233D-4305-8750-ABBF444DC1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8480E82A-233D-4305-8750-ABBF444DC1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2FC2E71-0903-46E5-B4FB-974DA13422C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FC2E71-0903-46E5-B4FB-974DA13422C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FC2E71-0903-46E5-B4FB-974DA13422C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FC2E71-0903-46E5-B4FB-974DA13422C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB63DA1-37C6-4E00-8A65-3841B42F0C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB63DA1-37C6-4E00-8A65-3841B42F0C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB63DA1-37C6-4E00-8A65-3841B42F0C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB63DA1-37C6-4E00-8A65-3841B42F0C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8232416E-0FF7-460E-B80D-A1A50E9F5462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8232416E-0FF7-460E-B80D-A1A50E9F5462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8232416E-0FF7-460E-B80D-A1A50E9F5462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8232416E-0FF7-460E-B80D-A1A50E9F5462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28328BF2-AF35-40A7-9FCD-854B642DF600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28328BF2-AF35-40A7-9FCD-854B642DF600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28328BF2-AF35-40A7-9FCD-854B642DF600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28328BF2-AF35-40A7-9FCD-854B642DF600}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
